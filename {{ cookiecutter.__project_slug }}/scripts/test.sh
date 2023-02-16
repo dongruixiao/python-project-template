@@ -3,4 +3,4 @@
 set -e
 set -x
 
-pytest tests --cov {{ cookiecutter.package_name }}
+pytest tests --cov {{ cookiecutter.__package_name }}
