@@ -24,7 +24,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-ignore = ["E501"]
+ignore = ["E501", "F821", "E712"]
 
 [tool.isort]
 profile = "black"
